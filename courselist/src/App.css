@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.listitem button{
+    padding:0px;
+    margin-left: 5px;
+}
+.insert{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.insert input{
+    width: 70%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.insert button{
+    background-color: black;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.Search{
+    display: flex;
+    justify-content: center;
+}
+.Search input{
+    margin-left: 10px;   
+    width: 74%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+input:focus{
+    outline: none;
+}
+.list {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    vertical-align: top;
+}
+.listitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding: 10px;
+    background-color: rgb(201, 186, 186);
+    border-radius: 10px;
+    width: 78.25%;
+    margin-bottom: 3px;
+}
+.listitem input[type=checkbox]{
+    margin: 1px 0 0;
+    line-height: normal;
+    width: 30px;
+    height: 30px;
+}
+.listitem p{
+    font-size:x-large ;
+}
+.listitem button{
+    background-color: black;
+    color: white;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
